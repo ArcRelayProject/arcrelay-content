@@ -6,7 +6,7 @@ license = "AGPL-3.0-only"
 publish = false
 
 [dependencies]
-arcrelay-peer = { version = "0.1.0", git = "https://github.com/ArcRelayProject/arcrelay-peer.git", rev = "739e41c49020cf19f0d490c64143e68e995aef83" }
+arcrelay-peer = { version = "0.1.0", git = "https://github.com/ArcRelayProject/arcrelay-peer.git", rev = "48cd4ad8538a0b5add33877f7f9b295e78c4fce1" }
 hmac = "0.12"
 futures = { version = "0.3", default-features = false, features = ["executor"] }
 serde = { version = "1", features = ["derive"] }
